@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe0f0; /* Warna latar belakang */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff; /* Warna latar konten */
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative; /* Menjadikan posisi absolut terhadap container */
+}
+
+.title {
+    color: #e91e63; /* Warna teks judul */
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #4a148c; /* Warna teks pertanyaan */
+    font-weight: bold;
+    font-family:cursive;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #e91e63; /* Warna latar tombol */
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative; /* Mengatur posisi relatif */
+}
+
+button:hover {
+    background-color: #c2185b; /* Warna latar tombol saat dihover */
+}
+
+.result {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ff0077; /* Warna teks jawaban */
+    font-weight: bold;
+    font-family: cursive;
+}
